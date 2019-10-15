@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="832d278e-6ee0-43ab-8fc7-a1a172a0037f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/FileReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/FileReader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -177,6 +183,16 @@
           <url>jar://$USER_HOME$/.m2/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4-sources.jar!/org/apache/spark/util/Utils.scala</url>
           <line>1764</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/Scala/FileReader.scala</url>
+          <line>61</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/Scala/FileReader.scala</url>
+          <line>73</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
