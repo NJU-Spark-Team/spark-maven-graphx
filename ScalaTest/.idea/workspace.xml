@@ -2,57 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832d278e-6ee0-43ab-8fc7-a1a172a0037f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Scala/FileReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/FileReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$compute_v$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$1$$anonfun$apply$mcV$sp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$1$$anonfun$apply$mcV$sp$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$2$$anonfun$apply$mcV$sp$2$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$2$$anonfun$apply$mcV$sp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$5$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$$anonfun$sendMsgFunc$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DoubleJump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ScalaTest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Row$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Row.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$$anonfun$4$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$$anonfun$4$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$$anonfun$main$1$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$$anonfun$main$1$$typecreator5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/averaging.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$main$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$main$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$main$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$main$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$main$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$main$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$main$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$$anonfun$main$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pack/GraphXTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,6 +145,7 @@
       <workItem from="1571020096677" duration="18470000" />
       <workItem from="1571062537987" duration="212000" />
       <workItem from="1571063237525" duration="6676000" />
+      <workItem from="1571118366646" duration="3054000" />
     </task>
     <servers />
   </component>
@@ -205,7 +157,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -223,26 +177,6 @@
           <url>jar://$USER_HOME$/.m2/repository/org/apache/spark/spark-core_2.11/2.4.4/spark-core_2.11-2.4.4-sources.jar!/org/apache/spark/util/Utils.scala</url>
           <line>1764</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/Scala/FileReader.scala</url>
-          <line>37</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/Scala/FileReader.scala</url>
-          <line>48</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/Scala/FileReader.scala</url>
-          <line>70</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/Scala/FileReader.scala</url>
-          <line>54</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

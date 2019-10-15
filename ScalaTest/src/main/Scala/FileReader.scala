@@ -1,19 +1,12 @@
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.graphx.{Edge, Graph, GraphLoader}
+import org.apache.spark.graphx.{Graph, GraphLoader}
 import org.apache.spark.{SparkConf, SparkContext}
-import spire.std.long
 
 import scala.collection.mutable
 import scala.io.Source
-import scala.util.control.Breaks
 
 object FileReader{
   def main(args: Array[String]): Unit = {
-    val res : List[Int] = func(2)
-    println(res)
-  }
-
-  def func(node : Int) : List[Int] = {
     Logger.getLogger("org.apache.spark").setLevel(Level.ERROR)
 
     val conf = new SparkConf().setAppName("MavenDependencyRelation").setMaster("local[*]")
@@ -24,8 +17,20 @@ object FileReader{
     val graph : Graph[Int, Int] = GraphLoader.edgeListFile(sc, "C:\\Users\\Disclover\\Desktop\\testdata.txt").cache()
 
     println("LOAD COMPLETE!")
-    println("Total time : " + (System.currentTimeMillis() - s))
+    println("Loading time : " + (System.currentTimeMillis() - s) + " ms")
 
+    for (line : String <- Source.fromFile("").getLines()){
+      val strs : Array[String] = line.split(",")
+      val simList : List[(Int, Double)] = func(strs(0).toInt, graph)
+      var res : String = strs(0) + ":"
+      simList.foreach(e => res += e._1 + "," + e._2 + ";")
+    }
+
+
+
+  }
+
+  def func(node : Int, graph : Graph[Int, Int]) : List[(Int, Double)] = {
 //    node.jar所依赖的所有包
     var depList : List[Int] = List()
     graph.edges.collect.foreach(e =>
@@ -47,24 +52,27 @@ object FileReader{
       })
 
     var similarity : Double = 0.0
-    var res : List[Int] = List()
+    var res : List[(Int, Double)] = List()
     val outOfNode : Int = depList.size
 
     map.foreach(e =>
       if (e._1 != node){
         var out : Int = 0
-        graph.edges.collect.foreach(f =>
-          if (f.srcId == e._1){
-            out += 1
-          })
+        /**
+         * TODO
+         */
+        //        graph.edges.collect.foreach(f =>
+//          if (f.srcId == e._1){
+//            out += 1
+//          })
         val common : Int = map(node) + e._2
-        val curSimilarity : Double = common / (outOfNode + out)
+        val curSimilarity : Double = (common * 2) / (outOfNode + out)
         if (curSimilarity > similarity){
-          res = List(e._1)
+          res = List((e._1, curSimilarity))
           similarity = curSimilarity
         }
         else if (curSimilarity == similarity){
-          res = res :+ e._1
+          res = res :+ (e._1, curSimilarity)
         }
       })
 
