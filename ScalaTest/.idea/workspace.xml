@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="832d278e-6ee0-43ab-8fc7-a1a172a0037f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScalaTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Scala/FileReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/FileReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spark_graphx_maven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Scala/FileReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Scala/GraphX.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mvn-edges.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mvn-edges.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mvn-nodes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mvn-nodes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$func$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$main$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvn-edges.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvn-edges.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mvn-nodes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mvn-nodes.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +69,7 @@
   <component name="ProjectId" id="1Ru9EX7mTkTyADrwZrUDchwTIlW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -80,15 +93,15 @@
   </component>
   <component name="RunManager" selected="Application.FileReader">
     <configuration name="FileReader" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="FileReader" />
-      <module name="ScalaTest" />
+      <option name="MAIN_CLASS_NAME" value="GraphX" />
+      <module name="spark_graphx_maven" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FileWordCount" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="pack.FileWordCount" />
-      <module name="ScalaTest" />
+      <module name="spark_graphx_maven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pack.*" />
@@ -101,7 +114,7 @@
     </configuration>
     <configuration name="GraphXTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="pack.GraphXTest" />
-      <module name="ScalaTest" />
+      <module name="spark_graphx_maven" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pack.*" />
@@ -114,7 +127,7 @@
     </configuration>
     <configuration name="averaging" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="averaging" />
-      <module name="ScalaTest" />
+      <module name="spark_graphx_maven" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,6 +165,7 @@
       <workItem from="1571062537987" duration="212000" />
       <workItem from="1571063237525" duration="6676000" />
       <workItem from="1571118366646" duration="3054000" />
+      <workItem from="1571151070520" duration="2547000" />
     </task>
     <servers />
   </component>
@@ -184,17 +198,10 @@
           <line>1764</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/Scala/FileReader.scala</url>
-          <line>61</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/Scala/FileReader.scala</url>
-          <line>73</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ScalaTest$FileReader.ic" NAME="FileReader Coverage Results" MODIFIED="1571152643895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
